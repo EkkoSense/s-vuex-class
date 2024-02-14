@@ -9,7 +9,7 @@
     "bindings"
   ],
   "license": "MIT",
-  "main": "dist/vuex-class.cjs.js",
+  "main": "dist/vuex-class.min.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
