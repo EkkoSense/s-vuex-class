@@ -23,7 +23,7 @@
     "url": "https://github.com/MasterShu/vuex-class.git"
   },
   "scripts": {
-    "prepare": "run-s lint test clean build",
+    "prepare": "run-s clean build",
     "prepublishOnly": "run-s lint test clean build",
     "clean": "rm -rf lib dist .tmp",
     "build": "run-s build:ts build:cjs build:dev build:prod",
